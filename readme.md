@@ -11,7 +11,6 @@ mkShell {
   ];
 }
 ```
-Postresql 
 
 Creating this and then running nix-shell means you’ll end up with a new shell with PostgreSQL available, but not actually running. To make it work, you can do this the first time:
 
@@ -28,7 +27,6 @@ Then every other time you re-enter that shell, you can just run the part that st
 
 > pg_ctl -D .tmp/mydb stop
 
-Diesel 
 In nix-shell : 
 > diesel setup --database-url='postgres://localhost:5432/mydb'
 > diesel migration generate create_posts
