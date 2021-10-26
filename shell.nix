@@ -2,6 +2,10 @@ with import <nixpkgs> {};
 mkShell {
   buildInputs = [
     postgresql,
-		diesel-cli
+		diesel-cli,
+		llvm,
+		cmake,
+		apacheKafka,
+		nodePackages.npm
   ];
 }
