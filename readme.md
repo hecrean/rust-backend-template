@@ -1,14 +1,11 @@
-https://mgdm.net/weblog/postgresql-in-a-nix-shell/
-https://mgdm.net/weblog/why-nix/
-see a full list of nix-os packages: https://search.nixos.org/
-
-
+Using NixOS for postresql and diesel-cli :
 
 ```nix
 with import <nixpkgs> {};
 mkShell {
   buildInputs = [
-    postgresql
+    postgresql,
+    diesel-cli
   ];
 }
 ```
@@ -36,8 +33,6 @@ In nix-shell :
 > diesel migration generate create_posts
 (fill in relevant sql in the generated migrations)
 > diesel migration run
-
-
 
 
 References : 
