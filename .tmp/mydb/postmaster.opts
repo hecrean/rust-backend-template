@@ -1,0 +1,1 @@
+/nix/store/839lhb00h8rxf7n5kbkf04m386awjyx5-postgresql-13.4/bin/postgres "-D" ".tmp/mydb" "--unix_socket_directories=/Users/hectorcrean/xyz/rust/graphql-backend"

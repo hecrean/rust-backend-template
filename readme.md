@@ -32,10 +32,13 @@ Then every other time you re-enter that shell, you can just run the part that st
 
 # Diesel 
 In nix-shell : 
-	> diesel setup --database-url='postgres://localhost/my_db'
-	> diesel migration generate create_users_table
+> diesel setup --database-url='postgres://localhost:5432/mydb'
+> diesel migration generate create_posts
+(fill in relevant sql in the generated migrations)
+> diesel migration run
 
-	
+
+
 
 References : 
 - https://www.youtube.com/watch?v=ICVQ8yFhjuw&t=2234s

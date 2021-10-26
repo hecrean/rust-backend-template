@@ -1,0 +1,81 @@
+2021-10-26 22:33:16.349 BST [8476] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-26 22:33:16.351 BST [8476] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-26 22:33:16.351 BST [8476] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-26 22:33:16.352 BST [8476] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-26 22:33:16.356 BST [8477] LOG:  database system was shut down at 2021-10-26 19:09:33 BST
+2021-10-26 22:33:16.359 BST [8476] LOG:  database system is ready to accept connections
+2021-10-26 22:34:33.241 BST [8594] FATAL:  role "postgres" does not exist
+2021-10-26 22:40:21.062 BST [9052] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-26 22:40:21.064 BST [9052] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-10-26 22:40:21.064 BST [9052] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-10-26 22:40:21.064 BST [9052] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-10-26 22:40:21.064 BST [9052] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-10-26 22:40:21.064 BST [9052] WARNING:  could not create listen socket for "localhost"
+2021-10-26 22:40:21.064 BST [9052] FATAL:  could not create any TCP/IP sockets
+2021-10-26 22:40:21.065 BST [9052] LOG:  database system is shut down
+2021-10-26 22:42:31.955 BST [9350] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-26 22:42:31.957 BST [9350] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-10-26 22:42:31.957 BST [9350] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-10-26 22:42:31.957 BST [9350] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-10-26 22:42:31.957 BST [9350] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-10-26 22:42:31.957 BST [9350] WARNING:  could not create listen socket for "localhost"
+2021-10-26 22:42:31.957 BST [9350] FATAL:  could not create any TCP/IP sockets
+2021-10-26 22:42:31.958 BST [9350] LOG:  database system is shut down
+2021-10-26 22:43:32.549 BST [9556] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-26 22:43:32.551 BST [9556] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-26 22:43:32.551 BST [9556] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-26 22:43:32.552 BST [9556] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-26 22:43:32.556 BST [9557] LOG:  database system was shut down at 2021-10-26 22:40:03 BST
+2021-10-26 22:43:32.559 BST [9556] LOG:  database system is ready to accept connections
+2021-10-26 22:44:08.447 BST [9619] FATAL:  role "postgres" does not exist
+2021-10-26 22:44:08.466 BST [9622] FATAL:  role "postgres" does not exist
+2021-10-26 22:45:28.051 BST [9556] LOG:  received fast shutdown request
+2021-10-26 22:45:28.051 BST [9556] LOG:  aborting any active transactions
+2021-10-26 22:45:28.052 BST [9556] LOG:  background worker "logical replication launcher" (PID 9563) exited with exit code 1
+2021-10-26 22:45:28.052 BST [9558] LOG:  shutting down
+2021-10-26 22:45:28.058 BST [9556] LOG:  database system is shut down
+2021-10-26 23:20:41.997 BST [12092] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-26 23:20:41.999 BST [12092] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-26 23:20:42.000 BST [12092] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-26 23:20:42.000 BST [12092] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-26 23:20:42.005 BST [12093] LOG:  database system was shut down at 2021-10-26 22:48:07 BST
+2021-10-26 23:20:42.009 BST [12092] LOG:  database system is ready to accept connections
+2021-10-26 23:26:15.160 BST [12492] FATAL:  database "mydb" does not exist
+2021-10-26 23:26:28.145 BST [12532] FATAL:  lock file "postmaster.pid" already exists
+2021-10-26 23:26:28.145 BST [12532] HINT:  Is another postmaster (PID 12092) running in data directory "/Users/hectorcrean/xyz/rust/graphql-backend/.tmp/mydb"?
+2021-10-26 23:26:49.971 BST [12700] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-26 23:26:49.973 BST [12700] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-26 23:26:49.973 BST [12700] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-26 23:26:49.974 BST [12700] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-26 23:26:49.977 BST [12701] LOG:  database system was interrupted; last known up at 2021-10-26 23:26:15 BST
+2021-10-26 23:26:50.023 BST [12701] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-26 23:26:50.028 BST [12701] LOG:  redo starts at 0/15F35E0
+2021-10-26 23:26:50.030 BST [12701] LOG:  invalid record length at 0/1613600: wanted 24, got 0
+2021-10-26 23:26:50.030 BST [12701] LOG:  redo done at 0/16135C8
+2021-10-26 23:26:50.042 BST [12700] LOG:  database system is ready to accept connections
+2021-10-26 23:28:01.606 BST [12700] LOG:  received fast shutdown request
+2021-10-26 23:28:01.607 BST [12700] LOG:  aborting any active transactions
+2021-10-26 23:28:01.607 BST [12700] LOG:  background worker "logical replication launcher" (PID 12707) exited with exit code 1
+2021-10-26 23:28:01.608 BST [12702] LOG:  shutting down
+2021-10-26 23:28:01.612 BST [12700] LOG:  database system is shut down
+2021-10-26 23:28:31.045 BST [12883] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-26 23:28:31.047 BST [12883] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-26 23:28:31.047 BST [12883] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-26 23:28:31.048 BST [12883] LOG:  listening on Unix socket "/Users/hectorcrean/xyz/rust/graphql-backend/.s.PGSQL.5432"
+2021-10-26 23:28:31.051 BST [12884] LOG:  database system was shut down at 2021-10-26 23:28:22 BST
+2021-10-26 23:28:31.053 BST [12883] LOG:  database system is ready to accept connections
+2021-10-26 23:29:11.255 BST [12957] FATAL:  role "postgres" does not exist
+2021-10-26 23:29:11.274 BST [12959] FATAL:  role "postgres" does not exist
+2021-10-26 23:30:03.918 BST [13059] FATAL:  database "mydb" does not exist
+2021-10-26 23:36:17.586 BST [13811] FATAL:  lock file "postmaster.pid" already exists
+2021-10-26 23:36:17.586 BST [13811] HINT:  Is another postmaster (PID 12883) running in data directory "/Users/hectorcrean/xyz/rust/graphql-backend/.tmp/mydb"?
+2021-10-26 23:36:31.419 BST [14061] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-26 23:36:31.420 BST [14061] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-26 23:36:31.420 BST [14061] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-26 23:36:31.422 BST [14061] LOG:  listening on Unix socket "/Users/hectorcrean/xyz/rust/graphql-backend/.s.PGSQL.5432"
+2021-10-26 23:36:31.426 BST [14062] LOG:  database system was interrupted; last known up at 2021-10-26 23:35:09 BST
+2021-10-26 23:36:31.474 BST [14062] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-26 23:36:31.476 BST [14062] LOG:  redo starts at 0/1613550
+2021-10-26 23:36:31.480 BST [14062] LOG:  invalid record length at 0/1632368: wanted 24, got 0
+2021-10-26 23:36:31.480 BST [14062] LOG:  redo done at 0/1632330
+2021-10-26 23:36:31.490 BST [14061] LOG:  database system is ready to accept connections
