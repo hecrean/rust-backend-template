@@ -1,4 +1,4 @@
-Install the following : 
+Install the following in local environment
 - Rust
 - Diesel CLI (to install run cargo install diesel_cli --no-default-features --features postgres)
 - LLVM (this is needed for the argonautica crate to work)
@@ -7,8 +7,8 @@ Install the following :
 - Apache Kafka
 - npm
 
-- run diesel setup
-- diesel migration generate create_posts
+TODOS : 
+[] use nix to create a distributable environment 
 
 
 References : 
