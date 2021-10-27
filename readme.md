@@ -17,6 +17,13 @@ Creating this and then running nix-shell means you’ll end up with a new shell 
 Create a database with the data stored in the current directory
 > initdb -D .tmp/mydb
 
+pg_ctl is a utility to initialize, start, stop, or control a PostgreSQL server.
+Usage:
+  pg_ctl init[db]   [-D DATADIR] [-s] [-o OPTIONS]
+  pg_ctl start      [-D DATADIR] [-l FILENAME] [-W] [-t SECS] [-s]
+                    [-o OPTIONS] [-p PATH] [-c]
+  pg_ctl stop       [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]
+
 Start PostgreSQL running as the current user and with the Unix socket in the current directory
 > pg_ctl -D .tmp/mydb -l logfile -o "--unix_socket_directories='$PWD'" start
 
@@ -28,7 +35,8 @@ Then every other time you re-enter that shell, you can just run the part that st
 > pg_ctl -D .tmp/mydb stop
 
 In nix-shell : 
-> diesel setup --database-url='postgres://localhost:5432/mydb'
+The diesel setup will look for a DATABASE_URL env variable
+> diesel setup 
 > diesel migration generate create_posts
 (fill in relevant sql in the generated migrations)
 > diesel migration run

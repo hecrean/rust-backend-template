@@ -1,5 +1,5 @@
 use crate::models::Post;
-use crate::schema::posts::dsl;
+use crate::schema::posts;
 use actix::{Actor, Handler, Message, SyncContext};
 use diesel::prelude::*;
 use diesel::{
@@ -54,7 +54,7 @@ impl Handler<CreatePost> for DatabaseActor {
             published: msg.published,
         };
 
-        diesel::insert_into(dsl::posts)
+        diesel::insert_into(posts::dsl::posts)
             .values(new_post)
             .get_result::<Post>(&pooled_connection)
     }
@@ -66,11 +66,11 @@ impl Handler<UpdatePost> for DatabaseActor {
     fn handle(&mut self, msg: UpdatePost, _: &mut Self::Context) -> Self::Result {
         let pooled_connection = self.0.get().expect("Unable to get a connectio");
 
-        diesel::update(dsl::posts.filter(dsl::id.eq(msg.id)))
+        diesel::update(posts::dsl::posts.filter(posts::dsl::id.eq(msg.id)))
             .set((
-                dsl::title.eq(msg.title),
-                dsl::body.eq(msg.body),
-                dsl::published.eq(msg.published),
+                posts::dsl::title.eq(msg.title),
+                posts::dsl::body.eq(msg.body),
+                posts::dsl::published.eq(msg.published),
             ))
             .get_result::<Post>(&pooled_connection)
     }
@@ -82,6 +82,17 @@ impl Handler<DeletePost> for DatabaseActor {
     fn handle(&mut self, msg: DeletePost, _: &mut Self::Context) -> Self::Result {
         let pooled_connection = self.0.get().expect("Unable to get a connectio");
 
-        diesel::delete(dsl::posts.filter(dsl::id.eq(msg.id))).get_result::<Post>(&pooled_connection)
+        diesel::delete(posts::dsl::posts.filter(posts::dsl::id.eq(msg.id)))
+            .get_result::<Post>(&pooled_connection)
+    }
+}
+
+impl Handler<GetPosts> for DatabaseActor {
+    type Result = QueryResult<Vec<Post>>;
+
+    fn handle(&mut self, msg: GetPosts, _: &mut Self::Context) -> Self::Result {
+        let pooled_connection = self.0.get().expect("Unable to get a connectio");
+
+        posts::dsl::posts.get_results::<Post>(&pooled_connection)
     }
 }

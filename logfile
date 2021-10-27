@@ -79,3 +79,166 @@
 2021-10-26 23:36:31.480 BST [14062] LOG:  invalid record length at 0/1632368: wanted 24, got 0
 2021-10-26 23:36:31.480 BST [14062] LOG:  redo done at 0/1632330
 2021-10-26 23:36:31.490 BST [14061] LOG:  database system is ready to accept connections
+2021-10-27 01:08:48.561 BST [22383] LOG:  invalid length of startup packet
+2021-10-27 01:08:48.581 BST [22384] LOG:  invalid length of startup packet
+2021-10-27 01:08:48.583 BST [22385] LOG:  invalid length of startup packet
+2021-10-27 01:08:49.635 BST [22388] LOG:  invalid length of startup packet
+2021-10-27 01:08:49.636 BST [22389] LOG:  invalid length of startup packet
+2021-10-27 01:08:49.638 BST [22390] LOG:  invalid length of startup packet
+2021-10-27 01:08:54.652 BST [22398] LOG:  invalid length of startup packet
+2021-10-27 01:08:54.652 BST [22399] LOG:  invalid length of startup packet
+2021-10-27 01:08:54.654 BST [22400] LOG:  invalid length of startup packet
+2021-10-27 13:46:49.069 BST [14061] LOG:  received smart shutdown request
+2021-10-27 13:46:49.069 BST [41151] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41156] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41158] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41155] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41157] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41153] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41152] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41154] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41150] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.069 BST [41148] FATAL:  terminating connection due to administrator command
+2021-10-27 13:46:49.073 BST [14061] LOG:  background worker "logical replication launcher" (PID 14068) exited with exit code 1
+2021-10-27 13:46:49.073 BST [14063] LOG:  shutting down
+2021-10-27 13:46:49.082 BST [14061] LOG:  database system is shut down
+2021-10-27 14:12:45.137 BST [43436] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-27 14:12:45.139 BST [43436] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-27 14:12:45.139 BST [43436] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-27 14:12:45.140 BST [43436] LOG:  listening on Unix socket "/Users/hectorcrean/xyz/rust/graphql-backend/.s.PGSQL.5432"
+2021-10-27 14:12:45.145 BST [43437] LOG:  database system was shut down at 2021-10-27 13:46:49 BST
+2021-10-27 14:12:45.150 BST [43436] LOG:  database system is ready to accept connections
+2021-10-27 14:15:11.420 BST [43645] FATAL:  lock file "postmaster.pid" already exists
+2021-10-27 14:15:11.420 BST [43645] HINT:  Is another postmaster (PID 43436) running in data directory "/Users/hectorcrean/xyz/rust/graphql-backend/.tmp/mydb"?
+2021-10-27 14:16:02.204 BST [43436] LOG:  received smart shutdown request
+2021-10-27 14:16:02.205 BST [43436] LOG:  background worker "logical replication launcher" (PID 43443) exited with exit code 1
+2021-10-27 14:16:02.205 BST [43438] LOG:  shutting down
+2021-10-27 14:16:02.211 BST [43436] LOG:  database system is shut down
+2021-10-27 14:16:23.880 BST [43881] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-27 14:16:23.882 BST [43881] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-27 14:16:23.882 BST [43881] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-27 14:16:23.882 BST [43881] LOG:  listening on Unix socket "/Users/hectorcrean/xyz/rust/graphql-backend/.s.PGSQL.5432"
+2021-10-27 14:16:23.885 BST [43882] LOG:  database system was shut down at 2021-10-27 14:16:02 BST
+2021-10-27 14:16:23.888 BST [43881] LOG:  database system is ready to accept connections
+2021-10-27 14:36:47.159 BST [45371] FATAL:  lock file "postmaster.pid" already exists
+2021-10-27 14:36:47.159 BST [45371] HINT:  Is another postmaster (PID 43881) running in data directory "/Users/hectorcrean/xyz/rust/graphql-backend/.tmp/mydb"?
+2021-10-27 14:36:55.351 BST [43881] LOG:  received smart shutdown request
+2021-10-27 14:36:55.352 BST [43881] LOG:  background worker "logical replication launcher" (PID 43888) exited with exit code 1
+2021-10-27 14:36:55.353 BST [43883] LOG:  shutting down
+2021-10-27 14:36:55.357 BST [43881] LOG:  database system is shut down
+2021-10-27 14:37:01.091 BST [45521] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-27 14:37:01.093 BST [45521] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-27 14:37:01.093 BST [45521] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-27 14:37:01.094 BST [45521] LOG:  listening on Unix socket "/Users/hectorcrean/xyz/rust/graphql-backend/.s.PGSQL.5432"
+2021-10-27 14:37:01.097 BST [45522] LOG:  database system was shut down at 2021-10-27 14:36:55 BST
+2021-10-27 14:37:01.100 BST [45521] LOG:  database system is ready to accept connections
+2021-10-27 14:37:44.489 BST [45589] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.024 BST [47129] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.024 BST [47130] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.024 BST [47131] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.027 BST [47133] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.027 BST [47134] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.027 BST [47135] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.029 BST [47136] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.029 BST [47137] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.029 BST [47138] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.031 BST [47139] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.433 BST [47140] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.433 BST [47142] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.433 BST [47141] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.437 BST [47143] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.437 BST [47144] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.437 BST [47145] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.439 BST [47146] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.440 BST [47148] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.440 BST [47147] FATAL:  database "db" does not exist
+2021-10-27 14:58:40.442 BST [47149] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.243 BST [47153] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.243 BST [47154] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.243 BST [47155] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.246 BST [47156] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.247 BST [47157] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.247 BST [47158] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.249 BST [47159] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.250 BST [47160] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.250 BST [47161] FATAL:  database "db" does not exist
+2021-10-27 14:58:41.252 BST [47162] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.851 BST [47163] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.851 BST [47164] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.851 BST [47165] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.854 BST [47166] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.855 BST [47168] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.855 BST [47167] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.858 BST [47169] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.858 BST [47171] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.858 BST [47170] FATAL:  database "db" does not exist
+2021-10-27 14:58:42.860 BST [47172] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.056 BST [47185] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.057 BST [47186] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.057 BST [47187] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.059 BST [47188] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.060 BST [47190] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.060 BST [47189] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.062 BST [47191] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.063 BST [47192] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.063 BST [47193] FATAL:  database "db" does not exist
+2021-10-27 14:58:46.065 BST [47194] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.461 BST [47200] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.461 BST [47201] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.461 BST [47202] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.464 BST [47203] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.465 BST [47204] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.465 BST [47205] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.467 BST [47206] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.468 BST [47207] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.468 BST [47208] FATAL:  database "db" does not exist
+2021-10-27 14:58:52.470 BST [47209] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.268 BST [47231] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.268 BST [47232] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.268 BST [47233] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.271 BST [47234] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.271 BST [47235] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.272 BST [47236] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.274 BST [47238] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.274 BST [47237] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.275 BST [47239] FATAL:  database "db" does not exist
+2021-10-27 14:59:05.277 BST [47240] FATAL:  database "db" does not exist
+2021-10-27 15:04:08.387 BST [48062] FATAL:  lock file "postmaster.pid" already exists
+2021-10-27 15:04:08.387 BST [48062] HINT:  Is another postmaster (PID 45521) running in data directory "/Users/hectorcrean/xyz/rust/graphql-backend/.tmp/mydb"?
+2021-10-27 15:37:26.661 BST [45521] LOG:  received smart shutdown request
+2021-10-27 15:37:26.661 BST [45909] FATAL:  terminating connection due to administrator command
+2021-10-27 15:37:26.664 BST [45521] LOG:  background worker "logical replication launcher" (PID 45528) exited with exit code 1
+2021-10-27 15:37:26.664 BST [45523] LOG:  shutting down
+2021-10-27 15:37:26.672 BST [45521] LOG:  database system is shut down
+2021-10-27 15:37:32.791 BST [51019] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-27 15:37:32.792 BST [51019] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-27 15:37:32.793 BST [51019] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-27 15:37:32.793 BST [51019] LOG:  listening on Unix socket "/Users/hectorcrean/xyz/rust/graphql-backend/.s.PGSQL.5432"
+2021-10-27 15:37:32.798 BST [51020] LOG:  database system was shut down at 2021-10-27 15:37:26 BST
+2021-10-27 15:37:32.802 BST [51019] LOG:  database system is ready to accept connections
+2021-10-27 16:24:10.981 BST [51019] LOG:  received fast shutdown request
+2021-10-27 16:24:10.982 BST [51019] LOG:  aborting any active transactions
+2021-10-27 16:24:10.983 BST [51019] LOG:  background worker "logical replication launcher" (PID 51026) exited with exit code 1
+2021-10-27 16:24:10.983 BST [51021] LOG:  shutting down
+2021-10-27 16:24:10.990 BST [51019] LOG:  database system is shut down
+2021-10-27 16:47:37.351 BST [57734] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-27 16:47:37.354 BST [57734] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-27 16:47:37.354 BST [57734] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-27 16:47:37.355 BST [57734] LOG:  listening on Unix socket "/Users/hectorcrean/xyz/rust/graphql-backend/.s.PGSQL.5432"
+2021-10-27 16:47:37.360 BST [57735] LOG:  database system was shut down at 2021-10-27 16:24:10 BST
+2021-10-27 16:47:37.364 BST [57734] LOG:  database system is ready to accept connections
+2021-10-27 22:23:06.492 BST [75046] FATAL:  database "template_db" does not exist
+2021-10-27 23:37:59.967 BST [87384] FATAL:  lock file "postmaster.pid" already exists
+2021-10-27 23:37:59.967 BST [87384] HINT:  Is another postmaster (PID 57734) running in data directory "/Users/hectorcrean/xyz/rust/graphql-backend/.tmp/mydb"?
+2021-10-27 23:38:29.173 BST [57734] LOG:  received smart shutdown request
+2021-10-27 23:38:29.175 BST [57734] LOG:  background worker "logical replication launcher" (PID 57741) exited with exit code 1
+2021-10-27 23:38:29.175 BST [57736] LOG:  shutting down
+2021-10-27 23:38:29.182 BST [57734] LOG:  database system is shut down
+2021-10-27 23:38:33.272 BST [87483] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin17.7.0, compiled by clang version 7.1.0 (tags/RELEASE_710/final), 64-bit
+2021-10-27 23:38:33.274 BST [87483] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-27 23:38:33.274 BST [87483] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-27 23:38:33.274 BST [87483] LOG:  listening on Unix socket "/Users/hectorcrean/xyz/rust/graphql-backend/.s.PGSQL.5432"
+2021-10-27 23:38:33.279 BST [87484] LOG:  database system was shut down at 2021-10-27 23:38:29 BST
+2021-10-27 23:38:33.286 BST [87483] LOG:  database system is ready to accept connections
+2021-10-27 23:39:39.146 BST [87797] LOG:  invalid length of startup packet
+2021-10-27 23:41:54.696 BST [88056] LOG:  invalid length of startup packet
